@@ -1,4 +1,4 @@
-<?php include('templates/head.php') ?>
+<<?php include('templates/head.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -68,15 +68,16 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="top-box">
                                 <ul class="sociel_link">
-                                <li class="box-social"> <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                                <li class="box-social"> <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-                                <li class="box-social"> <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+                                    <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="top-box">
-                            <p>Website Pengepul Sampah <br>By Sri Puspita Dewi</p>
+                                <p>Website Pengepul Sampah </p>
                             </div>
                         </div>
                     </div>
@@ -98,8 +99,8 @@
                                     <ul class="menu-area-main">
                                         <li> <a href="home.php">Home</a> </li>
                                         <li> <a href="about.php">About</a> </li>
-                                        <li> <a href="info.php"> Trash Info</a> </li>
                                         <li class="active"> <a href="tc.php">Trash Collect</a> </li>
+                                        <li> <a href="akun.php"> Account</a> </li>
                                         <li> <a href="FB.php">FeedBack</a></li>
 
                                     </ul>

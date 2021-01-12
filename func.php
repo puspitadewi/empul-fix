@@ -46,8 +46,8 @@ function registrasi($data)
 function query($query)
 {
     global $conn;
-    $result =  mysqli_query($conn, "SELECT email FROM user WHERE email = '$email'");
-    //$result = mysqli_query($conn, $query);
+    //$result =  mysqli_query($conn, "SELECT email FROM user WHERE email = '$email'");
+    $result = mysqli_query($conn, $query);
     $rows = [];
     while ($row = mysqli_fetch_assoc($result)) {
         $rows[] = $row;
